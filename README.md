@@ -46,7 +46,7 @@ Attention Content
 ![default](./images/default.png)
 
 ## Configuration
-As you can see, The default configuration will show lables like `note, hint` and so on. To hidden these lables, you need to do this:
+As you can see, The default configuration will show labels like `note, hint`. To hidden these labels, you need to do this:
 ```js
 window.$docsify = {
       // ...
@@ -57,7 +57,7 @@ window.$docsify = {
 }
 ```
 
-After do that, you'll see:
+After doing that, you'll see:
 
 ![without-label](./images/without-label.png)
 
