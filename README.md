@@ -13,11 +13,13 @@ First, inlcude below essential files:
 <script src="http://unpkg.com/docsify-admonition@1.0.0/build/index.js"></script>
 ```
 
+> You can use it locally if you want, these files are all in `build` dir.
+
 Then you can use below syntax:
 
 ```markdown
 
-> [!note][Note Header]
+> [!note][Header]
 Note Content
 >
 
