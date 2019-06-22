@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel src -d build"
+    "build": "babel src -d build && cp src/admonition.css build/"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/RayYH/docsify-admonition#readme",
   "devDependencies": {
+    "braces": ">=2.3.1",
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0"
   }
