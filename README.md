@@ -64,7 +64,7 @@ After doing that, you'll see:
 
 ## Attention
 
-You can use `]` in header, since we use `]` to check the end of header! If you want to use `]` in header you can use `&#93;` instead of `]`.
+You cannot use `]` in header, since we use `]` to check the end of header! If you want to use `]` in header, use `&#93;` instead of `]`.
 
 ## License
 MIT.
