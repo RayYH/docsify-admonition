@@ -64,7 +64,7 @@ var install = function install(hook, vm) {
     };
 
     hook.afterEach(function (html, next) {
-        var modifiedHtml = html.replace(/<\s*blockquote[^>]*>(?:<p>|[\S\n]*)?\[!([\w\s]*)((?:\|[\w*:[\s\w\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]*)*?)\]\[([\w\s\-\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]*)\]([\s\S]*?)(?:<\/p>)?<\s*\/\s*blockquote>/g, function (match, key, settings, heading, value) {
+        var modifiedHtml = html.replace(/<\s*blockquote[^>]*>(?:<p>|[\S\n]*)?\[!([\w\s]*)((?:\|[\w*:[\s\w\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]*)*?)\]\[([^\]]*)\]([\s\S]*?)(?:<\/p>)?<\s*\/\s*blockquote>/g, function (match, key, settings, heading, value) {
             var config = options[key.toLowerCase()];
 
             if (!config) {
