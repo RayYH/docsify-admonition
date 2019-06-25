@@ -10,8 +10,8 @@ The docsify-admonition plugin is inspired by [docsify-plugin-flexible-alerts](ht
 First, inlcude below essential files:
 ```html
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<link rel="stylesheet" href="http://unpkg.com/docsify-admonition-plugin/build/admonition.css" />
-<script src="http://unpkg.com/docsify-admonition-plugin/build/index.js"></script>
+<link rel="stylesheet" href="http://unpkg.com/docsify-admonition-plugin@1.0.2/build/admonition.css" />
+<script src="http://unpkg.com/docsify-admonition-plugin@1.0.2/build/index.js"></script>
 ```
 
 > You can use it locally if you want, these files are all in `build` dir.
