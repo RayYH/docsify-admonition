@@ -1,7 +1,7 @@
 {
   "name": "docsify-admonition-plugin",
   "version": "1.0.2",
-  "description": "",
+  "description": "docsify-admonition plugin for docsify",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
