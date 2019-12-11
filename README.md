@@ -5,6 +5,7 @@ docsify-admonition is a plugin for [docsify](https://docsify.js.org/#/) to show 
 ## Usage
 
 First, include below essential files in the `index.html` file:
+
 ```html
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link rel="stylesheet" href="http://unpkg.com/docsify-admonition-plugin@1.0.2/build/admonition.css" />
@@ -39,10 +40,13 @@ Error Content
 Attention Content
 >
 ```
+
 ![default](./images/default.png)
 
 ## Configuration
+
 As you can see, The default configuration will show labels like `note, hint...`. To hidden these labels, you can add this configuration:
+
 ```js
 window.$docsify = {
       // ...
@@ -62,4 +66,5 @@ After doing that, you'll see:
 You cannot use `]` in header, since we use `]` to check the end of header! If you want to use `]` in header, use `&#93;` instead.
 
 ## License
+
 [MIT](./LICENSE).
