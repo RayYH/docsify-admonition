@@ -1,5 +1,7 @@
 # docsify-admonition
 
+**WARNING**: This project is not supported nor maintained anymore.
+
 docsify-admonition is a plugin for [docsify](https://docsify.js.org/#/) to show admonitions, it was inspired by [docsify-plugin-flexible-alerts](https://github.com/zanfab/docsify-plugin-flexible-alerts) and [mkdocs-material](https://github.com/squidfunk/mkdocs-material).
 
 ## Usage
